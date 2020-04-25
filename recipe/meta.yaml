@@ -7,15 +7,15 @@ package:
 source:
   url: https://github.com/golang/protobuf/archive/v{{ version }}.tar.gz
   sha256: 629781fd71f7d4c58db37eff79dc09302054156193ef75f918d03408a617d40c
-  folder: src/protobuf
 
 build:
   number: 0
+  script:
+    - go install -v ./protoc-gen-go
 
 requirements:
   build:
-    - {{ compiler('go') }}
-    - make
+    - {{ compiler('go') }} 1.13
 
 test:
   commands:
