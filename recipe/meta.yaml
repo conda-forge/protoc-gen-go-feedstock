@@ -27,7 +27,7 @@ about:
   home: https://github.com/golang/protobuf
   license: BSD-3-Clause
   license_family: BSD
-  license_file: src/protobuf/LICENSE
+  license_file: LICENSE
   summary: Go support for Protocol Buffers - Google's data interchange format
 
 extra:
