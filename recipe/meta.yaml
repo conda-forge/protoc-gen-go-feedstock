@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/golang/protobuf/archive/v{{ version }}.tar.gz
+  url : https://github.com/golang/protobuf/archive/v{{ version }}.tar.gz
   sha256: f0185157c9042484f7014836b5b0e8e37409aecef83108779ec15bc510e93c8a
 
 build:
