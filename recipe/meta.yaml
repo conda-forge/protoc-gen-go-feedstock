@@ -9,13 +9,13 @@ source:
   sha256: 088cc0f3ba18fb8f9d00319568ff0af5a06d8925a6e6cb983bb837b4efb703b3
 
 build:
-  number: 0
+  number: 1
   script:
     - go install -v ./protoc-gen-go
 
 requirements:
   build:
-    - {{ compiler('go') }} 1.13
+    - {{ compiler('go') }}
 
 test:
   commands:
