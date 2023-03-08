@@ -1,5 +1,9 @@
 provider: {linux_aarch64: default, linux_ppc64le: default}
-travis:
-  secure: {BINSTAR_TOKEN: Iq/bcCmVmNb18gL0eFA6o7tXezs2526Mj84bWgFavfhIIcrSenuc5DT42ydgjZ3LOOaVPB59rNQQbhu/m+O3CBIPbPnHInBZ7EvNkMyKn0dHPgyoP3Pt76fApPLdCkkGuBWMES6g/oB4uliD50A1JzDo8p8vG+lbeUP7M7QCpJuTnqF3qmG5dhOAvs/fPvOmPglgZCXwyo4XxfB3LmKBvtlEaiXxSXqZubA3YjkUYL+Y9kouzOPJZ2GKralxThwaQB7xZGA2ynyJf0wYw6XFA3pkmxkcV/EPHdGvVFnM4zJWLDhyADmxdf3WwiuFDrApDQcMTOKibkeZrgPDsp1R8MZkFA1j84vMjw/XL4UDLKkq/UEJf0JdBc4sFEbqeJaC1nHKfmey4/Z+Xo8LFUImyJddlIYF4N+GicoNfD5fCv9HjiL5CB/mqDDpyK0BttW/BjfYbphY6kCAx9rdOKPpquDmMb5s8k9gNd5AqusIeXRMHcBPnjQURdV1Lotz+nQXktmxaP/vZdhDgywmVVVQUQDmOdcqw6R/Q5G1rRnTsp93Pkvo7ne9zvBZTPO1C4TbFY3iL3316FHrYCy2lwZzSMf43lqeXByCIrMsaNaqum3baLDZMPOB8+j8jtrEXy4lVGh+rlKQnQiFblSdhOqsWOM9HqTl81zSD+0iYV6trI4=}
 bot:
   automerge: true
+conda_forge_output_validation: true
+github:
+  branch_name: main
+  tooling_branch_name: main
+conda_build:
+  pkg_format: '2'
