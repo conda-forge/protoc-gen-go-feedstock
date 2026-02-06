@@ -9,7 +9,7 @@ source:
   sha256: 48457a6a9e8c78a7556ff5ff4a4c77d7df9bf70e882491ee0f3f1ff06db2bfaa
 
 build:
-  number: 0
+  number: 1
   script:
     - go install -v ./protoc-gen-go
 
