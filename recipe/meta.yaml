@@ -1,4 +1,4 @@
-{% set version = "1.5.3" %}
+{% set version = "1.5.4" %}
 
 package:
   name: protoc-gen-go
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/golang/protobuf/archive/v{{ version }}.tar.gz
-  sha256: 48457a6a9e8c78a7556ff5ff4a4c77d7df9bf70e882491ee0f3f1ff06db2bfaa
+  sha256: d75e6960ecfabaaa83a7261b1b630d24e9c63aca79615fb15bf33e11b62fd019
 
 build:
   number: 0
